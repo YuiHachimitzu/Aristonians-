@@ -83,6 +83,7 @@ export interface Student {
   motto?: string;
   quote?: string;
   nickname?: string;
+  audio?: string; // Path to audio file that plays when clicking motto
 }
 
 // Real students from Aristotle class
@@ -93,7 +94,7 @@ export const students: Student[] = [
     name: 'Nicole Batan', 
     gender: 'female', 
     motto: 'Stay positive, work hard, make it happen.',
-    quote: 'Basta Aristotle!' 
+    quote: 'Basta Aristotle!', 
   },
   { 
     id: 'f-2', 
@@ -291,6 +292,7 @@ export const students: Student[] = [
     name: 'Genemark Generoso', 
     gender: 'male', 
     motto: 'Generosity is the key.',
+    audio: '/audio/genemark.mp3', 
     quote: 'Aristotle strong!' 
   },
   { 
@@ -299,7 +301,8 @@ export const students: Student[] = [
     gender: 'male', 
     motto: 'i eat bread for breakfast',
     quote: 'Developer of this site!',
-    image: '/images/adrian-fortin.jpg'
+    image: '/images/adrian-fortin.jpg',
+    audio: '/audio/adrian.mp3'
   },
   { 
     id: 'm-13', 
