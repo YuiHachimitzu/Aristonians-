@@ -83,7 +83,7 @@ export interface Student {
   motto?: string;
   quote?: string;
   nickname?: string;
-  audio?: string; // Path to audio file that plays when clicking motto
+  audioUrl?: string; // URL to audio file that plays when clicking motto
 }
 
 // Real students from Aristotle class
@@ -292,7 +292,7 @@ export const students: Student[] = [
     name: 'Genemark Generoso', 
     gender: 'male', 
     motto: 'Generosity is the key.',
-    audio: '/audio/genemark.mp3', 
+    audioUrl: 'https://www.youtube.com/embed/4Z1X4d2gGXw', // The Day by Crystal Castles (YouTube)
     quote: 'Aristotle strong!' 
   },
   { 
@@ -302,7 +302,7 @@ export const students: Student[] = [
     motto: 'i eat bread for breakfast',
     quote: 'Developer of this site!',
     image: '/images/adrian-fortin.jpg',
-    audio: '/audio/adrian.mp3'
+    audioUrl: 'https://www.youtube.com/embed/s1rAH7H5wdM' // Climax of Every Summertime by Niki (YouTube)
   },
   { 
     id: 'm-13', 
