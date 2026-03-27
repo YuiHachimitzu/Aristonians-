@@ -54,7 +54,7 @@ export const students: Student[] = [
     role: 'bread',
     isDeveloper: true,
     image: '/images/events/adrian.jpg',
-    audioTrack: 'every-summertime',
+    audioTrack: 'Stress relief x Harvey',
     audioTrackName: 'Stress relief x Harvey',
     legacyMessage: 'look at me now, look at me I\'ve become a butterfly, playing, dancing at my own stage',  // FIXED: Removed extra "e" and added missing quote
     socialLinks: {
