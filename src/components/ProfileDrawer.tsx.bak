@@ -69,10 +69,10 @@ export default function ProfileDrawer() {
       className={`fixed inset-0 z-[100] flex items-center justify-center p-4 ${isOpen ? 'pointer-events-auto' : 'pointer-events-none'}`}
       onClick={closeProfile}
     >
-      {/* Backdrop - blur removed */}
+      {/* Backdrop with heavy blur */}
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: isOpen ? 1 : 0 }}
+        initial={{ opacity: 0, backdropFilter: 'blur(0px)' }}
+        animate={{ opacity: isOpen ? 1 : 0, backdropFilter: isOpen ? 'blur(20px)' : 'blur(0px)' }}
         transition={{ duration: 0.4 }}
         className="absolute inset-0 bg-white/70"
       />
