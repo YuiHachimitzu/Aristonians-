@@ -1,3 +1,4 @@
+
 export interface Student {
   id: string;
   name: string;
@@ -36,7 +37,7 @@ export const students: Student[] = [
     },
   },
   {
-    id: '2',  // FIXED: Added missing closing quote
+    id: '2,
     name: 'Micah Ella Perin',
     gender: 'female',
     motto: 'if you never bleed you\'ll never gonna grow',
@@ -44,7 +45,7 @@ export const students: Student[] = [
     image: '/images/events/1000168922.jpg',
     audioTrack: 'theme-micah-ella',
     audioTrackName: 'High school in Jakarta - NIKI',
-    legacyMessage: 'overr sa mwhehehehe',  // Note: "overr" typo - should be "over"?
+    legacyMessage: 'overr sa mwhehehehe',
   },
   {
     id: '3',
@@ -56,7 +57,7 @@ export const students: Student[] = [
     image: '/images/events/adrian.jpg',
     audioTrack: 'every-summertime',
     audioTrackName: 'Stress relief x Harvey',
-    legacyMessage: 'look at me now, look at me I\'ve become a butterfly, playing, dancing at my own stage',  // FIXED: Removed extra "e" and added missing quote
+    legacyMessage: 'look at me now, look at me I\'ve e become a butterfly, playing, dancing at my own stage',
     socialLinks: {
       facebook: 'https://www.facebook.com/share/1BgD4u2TDA/',
     },
